@@ -7,6 +7,8 @@ uws-body-parser is a request body parsing middleware for uWebSockets.js.
 ```js
 const { App } = require('uWebSockets.js');
 
+const { bodyParser } = require('uws-body-parser');
+
 const app = App();
 
 app.post('/my/api/endpoint', (res, req) => {
